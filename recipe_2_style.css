@@ -87,6 +87,14 @@ button:hover, .home:hover{
   color: #ffcc5c;
 }
 
+.content-top h1{
+  padding-bottom: 30px;
+}
+
+.content-top h3{
+  padding-bottom: 30px;
+}
+
 .content-top a{
   font-size: 20px;
   color: #96ceb4;
