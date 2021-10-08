@@ -49,6 +49,7 @@ button{
   list-style: none;
   border-radius: 5px;
   margin-left: 40px;
+  background: #effdf7;
 }
 
 .recipe a{
