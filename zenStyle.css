@@ -1,0 +1,212 @@
+/* inspiration derived from SCREEN FILLER by Elliot Jay Stocks*/
+  * {
+   margin:0; 
+   padding:0;
+   }
+
+  em,
+	strong{ 
+    font-style:normal;
+    font-weight:400; 
+  }
+
+  html{ 
+    background-image: url(https://media.istockphoto.com/photos/one-spooky-halloween-pumpkin-blank-template-on-a-wooden-bench-with-a-picture-id1272937249?b=1&k=20&m=1272937249&s=170667a&w=0&h=UtLurlj6kgJ_-T8NADJepwBWjnfPx3eOR6KBYUZvRYM=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:5%;
+  }
+
+	body{ 
+    opacity: .8;
+    border-radius: 5px;
+  }
+
+	div, article, section, header, footer, nav, figure, li{
+     position:relative; 
+  }
+
+  .intro header h1{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+  
+	body, h2, h3{ 
+    font-family: 'Creepster', cursive; 
+  }
+
+
+	h1{ 
+    font-size: 2.2em;
+    margin-left: -11.7%;
+    background:#F75F1C;
+    color:#fff;
+    float: left; /**/
+    margin-bottom:1em;
+    padding: 1em 1.2em; 
+    border-radius: 5px;
+    bottom: -100px;
+    position: relative;
+    }
+
+	h2{ 
+    
+    color:#fff;
+    font-weight:900;
+    font-size:6em;
+    letter-spacing:1px;
+    line-height:1em; 
+  }
+
+	h3{
+   font-size:2.25em;
+   font-weight:200;
+   letter-spacing:1px;
+   line-height:1em;
+   padding:0.5em 0 0.25em 0; 
+   }
+
+	a{
+    border-bottom:1px solid white;
+    color:white;
+    text-decoration:none;
+    -moz-transition:border-color 0.2s ease-in-out; -ms-transition:border-color 0.2s ease-in-out; -o-transition:border-color 0.2s ease-in-out; -webkit-transition:border-color 0.2s ease-in-out; transition:border-color 0.2s ease-in-out;
+  }
+
+	a:hover{ 
+    border-color:#333;
+    color: #85E21F;
+  }
+
+  .participation{
+    border-radius: 5px;
+  }
+
+	p,li{ 
+    font-size:1.2em;
+    font-weight:400;
+    line-height:1.5em;
+    padding:0.5em 0; 
+  }
+
+	h1,
+	section.intro div.summary p,
+	div.requirements p:last-child{
+    font-weight:300;
+    letter-spacing:2px;
+    text-transform:uppercase; 
+  }
+
+section.intro{
+    padding:5%;
+  }
+
+	section.intro div.summary{ 
+    color:#fff; 
+    padding:15% 0;
+  }
+
+	section.intro div.preamble{ 
+    background:#85E21F; 
+    color:white;
+    margin-right:-12%; 
+    padding:5% 30% 5% 5%;
+    border-radius: 5px;
+  }
+
+  .summary a:hover{
+    border-color:black;
+    color: #85E21F;
+  }
+
+	div.main{
+    padding:5%; 
+  }
+
+	aside.sidebar{ 
+    background:#FF9A00; 
+    padding:5%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+  }
+
+  .wrapper{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  aside.sidebar ul{ 
+    padding:0.5em 0 2em 0;
+  }
+
+	aside.sidebar ul li{ 
+    list-style:none;  
+    padding:0 0 0.825em 0;
+  }
+  
+	footer{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -13.5%;
+    background:#F75F1C;
+    color:#fff;
+    width:5%;
+    padding: 4% 1% 5% 5%; 
+    border-radius: 5px;
+    top: -70px;
+    line-height:3em;
+  }
+
+  footer a:hover{
+    border-radius: 5px;
+    width: 130%;
+    background-color: #FF9A00;
+  }
+
+	footer a{ 
+    margin-right:1.5em; 
+    font-size: 1.3em;
+  }
+
+	div.explanation{ 
+    color:#fff; 
+    padding:5%; 
+  }
+
+	div.participation{ 
+    background:#F75F1C; 
+    color:#fff;
+    margin-left: -30%;
+    padding:5% 5% 5% 30%;  
+  }
+
+	div.benefits{ 
+    color: white;
+    margin-top:10%; 
+    padding:5%; 
+  }
+
+	div.requirements{ 
+    border-radius: 5px;
+    margin-right: -12%;
+    padding:5% 20% 5% 5%; 
+    color: white;
+    background: #85E21F;
+  }
+
+  .requirements a:hover{
+    color: #FF9A00;
+    border-color: black;
+  }
+
+
+
+
+
+
+
