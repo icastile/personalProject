@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mad cuz the lib </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="madStyle.css" rel="stylesheet" type="text/css" />
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://pbs.twimg.com/profile_images/491944915085955072/ItTCkYa1.jpeg" alt="logo" width="100" height="90">
+    </div>
+    <div>
+      <h1>MAD LIBS</h1>
+    </div>
+    <div class="logo">
+      <img src="https://pbs.twimg.com/profile_images/491944915085955072/ItTCkYa1.jpeg" alt="logo" width="100" height="90">
+    </div>
+     
+  </header>
+
+<div id="Mad1" class="tabcontent">
+  <h1>Brandon</h1>
+  <p>Brandon is a great guy. Stand up character. Wins lots of races. He's got dementia, though.</p>
+</div>
+
+<div id="Mad2" class="tabcontent">
+  <h1>Weird News</h1>
+  <p>It's a strange world out there.</p> 
+</div>
+
+<div id="Mad3" class="tabcontent">
+  <h1>Undercover Badass</h1>
+  <p>She's Couragous. She's classy. She'll break your kneecaps.</p>
+</div>
+
+
+<button type="button" id="formButton1" class="tablink" onclick="openLib('Mad1', this, '#e4d1d1')">Brandon</button>
+
+<button type="button" id="formButton2" class="tablink" onclick="openLib('Mad2', this, '#b9b0b0')">Weird News</button>
+
+<button type="button" id="formButton3" class="tablink" onclick="openLib('Mad3', this, '#d9ecd0')">Undercover Badass</button>
+
+
+<form class="libForm" id="form1">
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f1s1" id="f1s1" placeholder="Random Political office">
+    <br><br>
+    <input type="text" name="f1s2" id="f1s2" placeholder="State you are not in">
+    <br><br>
+    <input type="text" name="f1s3" id="f1s3" placeholder="A large number">
+    <br><br>
+    <input type="text" name="f1s4" id="f1s4" placeholder="Verb ending in 'ed'">
+    <br><br>
+    <input type="text" name="f1s5" id="f1s5" placeholder="A part of the body (plural)">
+    <br><br>
+    <button type="button" id="submitForm1">Submit</button>
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f1s6" id="f1s6" placeholder="Adjective">
+    <br> <br>
+    <input type="text" name="f1s7" id="f1s7" placeholder="Animal">
+    <br> <br>
+    <input type="text" name="f1s8" id="f1s8" placeholder="Animal">
+    <br> <br>
+    <input type="text" name="f1s9" id="f1s9" placeholder="Activity ending in 'ing'">
+    <br> <br>
+    <input type="text" name="f1s10" id="f1s10" placeholder="String of nonsense">
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f1s11" id="f1s11" placeholder="thing">
+    <br> <br>
+  </div>
+</form>
+
+<form class="libForm" id="form2">
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f2s1" id="f2s1" placeholder="Adjective">
+    <br><br>
+    <input type="text" name="f2s2" id="f2s2" placeholder="Wacky State">
+    <br><br>
+    <input type="text" name="f2s3" id="f2s3" placeholder="Verb ending in 'ed'">
+    <br><br>
+    <input type="text" name="f2s4" id="f2s4" placeholder="Noun">
+    <br><br>
+    <input type="text" name="f2s5" id="f2s5" placeholder="Proper name">
+    <br> <br>
+    <button type="button" id="submitForm2">Submit</button>
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f2s6" id="f2s6" placeholder="Verb ending with ing">
+    <br> <br>
+    <input type="text" name="f2s7" id="f2s7" placeholder="Reletive">
+    <br> <br>
+    <input type="text" name="f2s8" id="f2s8" placeholder="Verb">
+    <br> <br>
+    <input type="text" name="f2s9" id="f2s9" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f2s10" id="f2s10" placeholder="Body part">
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f2s11" id="f2s11" placeholder="Adjective">
+    <br> <br>
+    <input type="text" name="f2s12" id="f2s12" placeholder="Closer Reletive">
+    <br> <br>
+    <input type="text" name="f2s13" id="f2s13" placeholder="Activity">
+    <br> <br>
+    <input type="text" name="f2s14" id="f2s14" placeholder="Chain Restaurant">
+    <br> <br>
+    <input type="text" name="f2s15" id="f2s15" placeholder="Verb, past tense">
+  </div>
+    <div class="subForm">
+    <br> <br>
+    <input type="text" name="f2s16" id="f2s16" placeholder="Month">
+    <br> <br>
+    <input type="text" name="f2s17" id="f2s17" placeholder="Verb">
+    <br> <br>
+    <input type="text" name="f2s18" id="f2s18" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f2s19" id="f2s19" placeholder="Verb, Past Tense">
+    <br> <br>
+    <input type="text" name="f2s20" id="f2s20" placeholder="Adjective">
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f2s21" id="f2s21" placeholder="Verb">
+    <br> <br>
+    <input type="text" name="f2s22" id="f2s22" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f2s23" id="f2s23" placeholder="Plural noun">
+  </div>
+</form>
+
+<form class="libForm" id="form3">
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f3s1" id="f3s1" placeholder="Woman's Name">
+    <br><br>
+    <input type="text" name="f3s2" id="f3s2" placeholder="Occupation">
+    <br><br>
+    <input type="text" name="f3s3" id="f3s3" placeholder="Noun">
+    <br><br>
+    <input type="text" name="f3s4" id="f3s4" placeholder="Noun">
+    <br><br>
+    <input type="text" name="f3s5" id="f3s5" placeholder="Noun">
+    <br> <br>
+    <button type="button" id="submitForm3">Submit</button>
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f3s6" id="f3s6" placeholder="Shape">
+    <br> <br>
+    <input type="text" name="f3s7" id="f3s7" placeholder="Same Woman's Name">
+    <br> <br>
+    <input type="text" name="f3s8" id="f3s8" placeholder="Verb">
+    <br> <br>
+    <input type="text" name="f3s9" id="f3s9" placeholder="Man's Name">
+    <br> <br>
+    <input type="text" name="f3s10" id="f3s10" placeholder="Body Part">
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f3s11" id="f3s11" placeholder="Verb">
+    <br> <br>
+    <input type="text" name="f3s12" id="f3s12" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f3s13" id="f3s13" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f3s14" id="f3s14" placeholder="Restaurant Name">
+    <br> <br>
+    <input type="text" name="f3s15" id="f3s15" placeholder="Historic Monument">
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f3s16" id="f3s16" placeholder="Verb">
+    <br> <br>
+    <input type="text" name="f3s17" id="f3s17" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f3s18" id="f3s18" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f3s19" id="f3s19" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f3s20" id="f3s20" placeholder="Verb">
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f3s21" id="f3s21" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f3s22" id="f3s22" placeholder="Adjective">
+    <br> <br>
+    <input type="text" name="f3s23" id="f3s23" placeholder="Adjective">
+    <br> <br>
+    <input type="text" name="f3s24" id="f3s24" placeholder="Emotion">
+    <br> <br>
+    <input type="text" name="f3s25" id="f3s25" placeholder="Verb">
+  </div>
+  <div class="subForm">
+    <br> <br>
+    <input type="text" name="f3s26" id="f3s26" placeholder="Noun">
+    <br> <br>
+    <input type="text" name="f3s27" id="f3s27" placeholder="Verb">
+    <br> <br>
+    <input type="text" name="f3s28" id="f3s28" placeholder="Noun">
+    <br> <br>
+  </div>
+</form>
+
+<p id='libText'></p>
+
+
+
+<script>
+  // Change tab, tab color, and tab content on
+  // user click
+function openLib(tabName,elmnt,color) {
+  var i, tabcontent, tablinks, currentForm;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(tabName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+  
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("formButton1").click();
+
+
+
+// Show form fields once user clicks a tab
+// hide all other table
+// clear text field of mad lib output
+// clears form 
+$(document).ready(function() {
+  $("#formButton1").click(function() {
+    $("#form1").toggle();
+    $("#form2").hide();
+    $("#form3").hide();
+    $('#libText').text("");
+    $("#form1").trigger('reset');
+  });
+});
+
+// Show form fields once user clicks a tab
+// hide all other table
+// clear text field of mad lib output
+// clears form 
+$(document).ready(function() {
+  $("#formButton2").click(function() {
+    $('#libText').text("");
+    $("#form2").toggle();
+    $("#form1").hide();
+    $("#form3").hide();
+    $("#form2").trigger('reset');
+    
+  });
+});
+
+// Show form fields once user clicks a tab
+// hide all other table
+// clear text field of mad lib output
+// clears form 
+$(document).ready(function() {
+  $("#formButton3").click(function() {
+    $('#libText').text("");
+    $("#form1").hide();
+    $("#form2").hide();
+    $("#form3").toggle();
+    $("#form3").trigger('reset');
+  });
+});
+
+// on submission click, hide form and 
+// display mad lib text with field data
+$('#submitForm1').on('click', function() {
+  $("#form1").toggle();
+  $('#libText').text("Hi. My name is Brandon. I'm running for  " + $('#f1s1').val() + " and I need support from the great state of "  + $('#f1s2').val() + ". In my " + $('#f1s3').val() + " years in office, I " + $('#f1s4').val() + " many " + $('#f1s5').val() + ". Hey " + $('#f1s6').val() + ", if you don't like it, you are a " + $('#f1s7').val() + " faced " + $('#f1s8').val() + " soldier and you should vote for the other guy. We should take it outside and have a " + $('#f1s9').val() + " contest. Now vote for me, Brandon " + $('#f1s10').val() +". You know the " + $('#f1s11').val() + ".");
+});
+
+// on submission click, hide form and 
+// display mad lib text with field data
+$('#submitForm2').on('click', function() {
+  $("#form2").toggle();
+  $('#libText').text("A " + $('#f2s1').val() + " man in " + $('#f2s2').val() + " was arrested this morning after he " + $('#f2s3').val() + " in front of a " + $('#f2s4').val() + ". " + $('#f2s5').val() + ", had a history of " + $('#f2s6').val() + ", but no one - not even his " + $('#f2s7').val() + "- ever imagined he'd " + $('#f2s8').val() + " with a " + $('#f2s9').val() + " stuck in his " + $('#f2s10').val() + ". 'I always thought he was " + $('#f2s11').val() + ", but i never thought he'd do something like this. Even his " + $('#f2s12').val() + " was surprised.' After a brief " + $('#f2s13').val() + ", cops followed him to a " + $('#f2s14').val() + ", where he reportedly " + $('#f2s15').val() + " in the fry machine. In " + $('#f2s16').val() + ", a woman was charged with a similar crime. But rather than " + $('#f2s17').val() + " with a " + $('#f2s18').val() + ", she " + $('#f2s19').val() + " with a " + $('#f2s20').val() + " dog. Either way, we imagine that after witnessing him " + $('#f2s21').val() + " with a " + $('#f2s22').val() + " there are probably a whole lot of " + $('#f2s23').val() + " that are going to need some therapy.");
+});
+
+// on submission click, hide form and 
+// display mad lib text with field data
+$('#submitForm3').on('click', function() {
+  $("#form3").toggle();
+  $('#libText').text($('#f3s1').val() + " is a normal " + $('#f3s2').val() + ". Then, one day, a " + $('#f3s3').val() + " explodes, causing a " + $('#f3s4').val() + " to blow up, and a nearby " + $('#f3s5').val() + " erupts into a " + $('#f3s6').val() + " of flames. " + $('#f3s1').val() + " realizes that she's being chased by the government, who's trying to " + $('#f3s8').val() + " her. While on the run, she teams up with an incredibly attractive man named " + $('#f3s9').val() + ", who has an incredible " + $('#f3s10').val() + ". He may be from the streets, but he can " + $('#f3s11').val() + " like nobody's business. The duo decide to turn the tables on their pursuers by blowing up a " + $('#f3s12').val() + ", which triggers a chain reaction, causing the local " + $('#f3s13').val() + ", " + $('#f3s14').val() + ", and the " + $('#f3s15').val() + " to explode. Then, the bad guys' helicopter gets " + $('#f3s16').val() + " by a piece of " + $('#f3s17').val() + " from when the " + $('#f3s18').val() + " exploded, and the helicopter explodes and falls onto a " + $('#f3s19').val() + ", causing it to " + $('#f3s20').val() + ", which shoots a fireball straight into the heart of " + $('#f3s21').val() + " and destroys the bad guy leader. Everything is " + $('#f3s22').val() + " and the two decide that such a " + $('#f3s23').val() + " ordeal has caused them to fall in " + $('#f3s24').val() + " with each other. They decide to celebrate by " + $('#f3s25').val() + "ing on the " + $('#f3s26').val() + ", and even managed to use a " + $('#f3s27').val() + " from the beginning of the movie, to " + $('#f3s28').val() + " the whole story together.");
+});
+</script>
+   
+</body>
+</html> 

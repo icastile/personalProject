@@ -1,0 +1,93 @@
+header{ 
+  color:#e0876a;
+  background: #f0efef;
+  font-size:42px;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%; /*Add this*/
+}
+
+#libText{
+  text-align: center;
+  letter-spacing: 1px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  line-height: 1.2;
+  font-size: 26px;
+}
+
+body {
+  font-family: "Lato", sans-serif;}
+
+form {
+  padding: 15px;
+  background: #fff;
+  display: none;
+}
+
+libForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subForm {
+    width: 12%;
+    float: left;
+}
+
+button{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {opacity: 1}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+#formButton1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.33333%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#Mad1 {background-color:#b7d7e8;}
+#Mad2 {background-color:#87bdd8;}
+#Mad3 {background-color:#80ced6;}
+
