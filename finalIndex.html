@@ -42,13 +42,13 @@
           <p>The M1 money stock, as shown to the right is from the Federal Reserve Bank. It has kept track of the amount of dollars in circulation from 1959 - present.</p>
           <p>This isn't your parents generation. More money has been printed in the last year and a half than has <strong>EVER</strong> existed. With this sharp increase in cash circulation, each dollar is worth less and less as they come off the printing press.</p>
         </div>
-        <img src="./images/graph1.jpg" alt="graph" class="graph"/>
-        <img src="./images/graph2.jpg" alt="graph" class="graph"/>
-        <img src="./images/graph3.jpg" alt="graph" class="graph"/>
-        <img src="./images/graph4.jpg" alt="graph" class="graph"/>
-        <img src="./images/graph5.jpg" alt="graph" class="graph"/>
-        <img src="./images/graph6.jpg" alt="graph" class="graph"/>
-        <img src="./images/graph7.jpg" alt="graph" class="graph"/>
+        <img src="./personalProject/graph1.jpg" alt="graph" class="graph"/>
+        <img src="./personalProject/graph2.jpg" alt="graph" class="graph"/>
+        <img src="./personalProject/graph3.jpg" alt="graph" class="graph"/>
+        <img src="./personalProject/graph4.jpg" alt="graph" class="graph"/>
+        <img src="./personalProject/graph5.jpg" alt="graph" class="graph"/>
+        <img src="./personalProject/graph6.jpg" alt="graph" class="graph"/>
+        <img src="./personalProject/graph7.jpg" alt="graph" class="graph"/>
       </div>
       <div class="section s3">
         <h1>What's going to happen?</h1>
@@ -118,9 +118,9 @@
         navigation: true, // add nav bullets
         scrollingSpeed: 800,
         keyboardScrolling: true,  
-	      animateAnchor: true,
+	animateAnchor: true,
         // manipulate object starting and ending location using cdn.js
-      onLeave: (origin, destination, direction) => {
+      	onLeave: (origin, destination, direction) => {
           const section = destination.item;
           const title = section.querySelector('h1');
           const tl = new TimelineMax({delay: .5});
