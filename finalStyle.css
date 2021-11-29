@@ -41,12 +41,12 @@ h1{
 }
 
 .s2{
-  background: url('../images/debt.jpg');
+  background: url('../personalProject/debt.jpg');
   background-size: cover;
 }
 
 .s3{
-  background: url('../images/collapse.jpg');
+  background: url('../personalProject/collapse.jpg');
   background-size: cover;
 }
 
@@ -61,7 +61,7 @@ h1{
 }
 
 .s4{
-  background: url('../images/coin.jpg');
+  background: url('../personalProject/coin.jpg');
   background-size: cover;
 }
 
@@ -77,7 +77,7 @@ h1{
 
 
 .s5{
-  background: url('../images/bitcoin.jpg');
+  background: url('../personalProject/bitcoin.jpg');
   background-size: cover;
 }
 
