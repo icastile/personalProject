@@ -25,7 +25,7 @@ h1{
 }
 
 .s1{
-  background: url('../images/one.jpg');
+  background: url('one.jpg');
   background-size: cover;
 }
 
